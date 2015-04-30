@@ -20,8 +20,10 @@
 # Ensure you box has an IP address and that DNS works
 #    ifconfig
 #    ping yahoo.com -c 2
+# Install openssl to retrieve file from GitHub
+#    tce-load -iw openssl-1.0.1.tcz 
 # Pull down core_install.sh script
-#    wget https://github.com/opsdisk/coressh/blob/master/core_install.sh -P /tmp
+#    wget https://github.com/opsdisk/coressh/raw/master/core_install.sh -P /tmp
 # Mark script as executable
 #    sudo chmod +x /tmp/core_install.sh
 # Remove potential DOS line breaks
